@@ -6,8 +6,7 @@ function Navbar() {
     <>
 	<nav className="navbar">
 		
-		<h1 className="navbar-heading">
-			<img className='logo' src="logo192.png" alt=""/>Word Wizard</h1>
+		<h1 className="navbar-heading"><img className='logo' src="logo192.png" alt=""/>Word Wizard</h1>
 		<p className="navbar-tagline">Text Editing Made Spellbinding</p>
 	</nav>
 </>
