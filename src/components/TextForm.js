@@ -48,7 +48,7 @@ function TextForm() {
                 <button type="button" className="btns btn btn-secondary mx-1 my-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
                 <button type="button" className="btns btn btn-secondary mx-1 my-1" onClick={handleClear}>Clear Text</button>
                 <button type="button" style={{ width: '120px' }} className="btns btn btn-secondary mx-1 my-1" onClick={handleCopy}>
-                    {copy == text && text != '' ? 'Copied ✔' : 'Copy Text'}
+                    {copy === text && text !== '' ? 'Copied ✔' : 'Copy Text'}
                 </button>
             </div>
 
