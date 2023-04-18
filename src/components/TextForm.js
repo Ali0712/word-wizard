@@ -64,14 +64,11 @@ function TextForm() {
 
             </div>
 
-
             {/* 
             <h3>Preview Your Text</h3>
             <textarea className="form-control border-primary preview" rows="5" cols="3" disabled value={!text ? 'Enter text to preview' : text}>
                 
             </textarea> */}
-
-
 
         </div>
 
